@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EcoJet X1 – Step-by-Step Assembly Instructions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>EcoJet X1 – Detailed Assembly Instructions</h1>
+    <p>Follow these step-by-step instructions with every detail on what to do, where to do it, and how to do it.</p>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Project Description</a></li>
+      <li><a href="assembly.html" class="active">Assembly Instructions</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <!-- Step 1: Airframe Construction -->
+    <section id="step1">
+      <h2>Step 1: Airframe Construction</h2>
+      <p>This phase builds the structural skeleton of the EcoJet X1 using premium composite materials. Follow each detailed sub-step:</p>
+      
+      <h3>1.1 Preparing the Foam Core</h3>
+      <ol>
+        <li>
+          <strong>Materials & Tools:</strong> Rohacell foam block (minimum 300 mm x 100 mm x 50 mm), CNC cutting machine (or laser cutter), digital caliper, design template (DXF file), masking tape.
+        </li>
+        <li>
+          <strong>Marking the Profile:</strong> 
+          <ul>
+            <li>Download the provided DXF template outlining the fuselage profile (300 mm long with a maximum cross-section of 50 x 40 mm), wing outlines, and tail shapes.</li>
+            <li>Place the Rohacell foam on the CNC machine bed. Use masking tape to secure it in place.</li>
+            <li>Align the template with the foam and mark the boundaries using a fine-tip marker.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>CNC Cutting:</strong> 
+          <ul>
+            <li>Load the template into the CNC software.</li>
+            <li>Set the cutting parameters: a cutting speed that minimizes foam melting (e.g., 800 mm/min) and a depth of cut of 2 mm per pass.</li>
+            <li>Cut out the fuselage profile, then separately cut the wing cores and tail pieces.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Edge Finishing:</strong> 
+          <ul>
+            <li>After cutting, use fine-grit sandpaper to smooth the edges of each piece.</li>
+            <li>Measure with a digital caliper to ensure dimensions are accurate.</li>
+          </ul>
+        </li>
+      </ol>
+      
+      <h3>1.2 Composite Layup</h3>
+      <ol>
+        <li>
+          <strong>Materials & Tools:</strong> Toray T300 carbon fiber prepreg panels (2 mm thick), epoxy resin, vacuum bagging film, peel ply, vacuum pump, release film, brush, oven (set to 60°C), gloves.
+        </li>
+        <li>
+          <strong>Surface Preparation:</strong>
+          <ul>
+            <li>Clean the foam surfaces with isopropyl alcohol.</li>
+            <li>Apply a thin coat of epoxy to help the carbon fiber bond with the foam core.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Layup Process:</strong>
+          <ul>
+            <li>Place the foam core (fuselage piece) on a clean, flat surface.</li>
+            <li>Cut the carbon fiber panels to the exact dimensions of the foam core’s sides. (For a 300 mm fuselage with a 50 x 40 mm cross-section, cut two panels sized to cover each side, leaving a 5 mm extra margin for trimming.)</li>
+            <li>Brush a uniform layer of epoxy on the foam core, then lay a carbon fiber panel on top.</li>
+            <li>Repeat for the other side.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Vacuum Bagging:</strong>
+          <ul>
+            <li>Cover the assembly with release film and then the vacuum bagging film. Seal the edges with adhesive tape.</li>
+            <li>Connect the vacuum pump and pull down to a pressure of approximately 0.09 MPa (or as recommended by your epoxy system).</li>
+            <li>Place the bagged assembly in an oven set to 60°C and cure for 2 hours.</li>
+          </ul>
+        </li>
+      </ol>
+      
+      <h3>1.3 Internal Bulkhead & Wiring Channels</h3>
+      <ol>
+        <li>
+          <strong>Marking:</strong> On the cured fuselage, measure 150 mm from the nose and mark a line across the internal width.
+          <br><em>Tip:</em> Use a metal ruler and a fine-tip marker for precision.
+        </li>
+        <li>
+          <strong>Cutting the Bulkhead:</strong>
+          <ul>
+            <li>Using a sharp utility knife, cut out a thin disk from an extra piece of foam (approx. 45 mm diameter) that matches the fuselage interior curvature.</li>
+            <li>Sand the edges lightly to ensure a flush fit.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Installing the Bulkhead:</strong>
+          <ul>
+            <li>Apply a high-strength epoxy along the bulkhead’s perimeter.</li>
+            <li>Fit it into the fuselage at the 150 mm mark, ensuring it is perfectly horizontal.</li>
+            <li>Clamp it in place and let cure for at least 1 hour before moving on.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Wiring Channels:</strong>
+          <ul>
+            <li>Using a thin, heated blade or hot wire cutter, create small channels (approximately 3 mm wide) along the inner walls for routing motor and sensor wires.</li>
+            <li>Ensure the channels follow the fuselage’s curve to avoid sharp bends in the wiring.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+    
+    <!-- Step 2: Propulsion System Installation -->
+    <section id="step2">
+      <h2>Step 2: Propulsion System Installation</h2>
+      <p>This stage covers the precise mounting and wiring of the propulsion components.</p>
+      
+      <h3>2.1 Mounting the Motors and EDF Units</h3>
+      <ol>
+        <li>
+          <strong>Tools & Materials:</strong> T‑Motor Velox V3 2207 1200KV motors, custom aluminum/carbon fiber brackets (pre-machined), screws (M3, length determined by bracket thickness), threadlocker (Loctite 243), Futaba digital caliper.
+        </li>
+        <li>
+          <strong>Wing Motors:</strong>
+          <ul>
+            <li>Locate the wing-fuselage junction on each wing. Mark the motor mounting positions such that the motor’s center aligns with the midpoint of the wing’s thickness.</li>
+            <li>Drill pilot holes on the pre‑machined bracket at the designated points (typically 4 holes in a square pattern, 30 mm apart).</li>
+            <li>Secure the motor onto the bracket using M3 screws and apply threadlocker for vibration resistance.</li>
+            <li>Check alignment with the digital caliper (ensure the motor axis is parallel to the wing chord).</li>
+          </ul>
+        </li>
+        <li>
+          <strong>EDF Unit Integration:</strong>
+          <ul>
+            <li>For each wing motor, attach the HET Typhoon EDF 2W‑25 unit to the bracket using a quick-release adapter.</li>
+            <li>Adjust the EDF unit’s angle so that the intake faces directly into the airflow when the aircraft is in level flight.</li>
+            <li>Tighten the adapter’s screws evenly and verify the unit’s stability.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Rear Motor Installation:</strong>
+          <ul>
+            <li>Mark a mounting point on the top rear fuselage where the third motor will be located—about 270 mm from the nose, centered horizontally.</li>
+            <li>Fabricate a vibration-dampened mount (using a small rubber pad sandwiched between an aluminum plate and the fuselage) and secure the motor with M3 screws using threadlocker.</li>
+          </ul>
+        </li>
+      </ol>
+      
+      <h3>2.2 Wiring and ESC Installation</h3>
+      <ol>
+        <li>
+          <strong>ESC Placement:</strong>
+          <ul>
+            <li>Mount each Hobbywing XRotor Micro 30A ESC adjacent to its respective motor using pre-designed internal mounting plates.</li>
+            <li>Ensure the ESC is positioned so that its wires can reach the motor without any strain, using zip-ties to secure the wiring along the interior channel.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Wiring the Motors:</strong>
+          <ul>
+            <li>Strip a small length of insulation off the motor wires and connect them to the ESC using soldering iron (set to 350°C) and high-quality solder. Work in a well-ventilated area.</li>
+            <li>Use heat shrink tubing over the solder joints to ensure secure, insulated connections.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Battery Connection:</strong>
+          <ul>
+            <li>Place the Tattu 3S 1800mAh LiPo in the designated battery compartment at the front of the fuselage.</li>
+            <li>Connect the battery to a central power distribution board (or directly to the ESCs if wiring is short) using XT60 connectors.</li>
+            <li>Route the battery wires through the previously cut channels and secure them with adhesive cable clips.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+    
+    <!-- Step 3: Advanced Systems Integration -->
+    <section id="step3">
+      <h2>Step 3: Advanced Systems Integration</h2>
+      <p>This stage details how to integrate the electronics that control flight, flaps, and monitoring systems.</p>
+      
+      <h3>3.1 Installing the Autopilot</h3>
+      <ol>
+        <li>
+          <strong>Mounting the Pixhawk 4:</strong>
+          <ul>
+            <li>Choose a flat, vibration-damped mounting plate in the rear electronics compartment. Use silicone vibration mounts if available.</li>
+            <li>Secure the Pixhawk 4 using its mounting holes and M2.5 screws. Refer to the Pixhawk 4 manual for exact screw torque (usually 0.2 Nm).</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Sensor Connections:</strong>
+          <ul>
+            <li>Connect the integrated GPS, IMU, and barometer modules to the Pixhawk using the provided cables. Ensure the GPS is oriented with a clear view of the sky.</li>
+            <li>Route the cables neatly through the wiring channels using cable ties.</li>
+          </ul>
+        </li>
+      </ol>
+      
+      <h3>3.2 Flap Control Setup</h3>
+      <ol>
+        <li>
+          <strong>Installing the Futaba S311 Servos:</strong>
+          <ul>
+            <li>Mount the servos on the underside of each wing near the trailing edge. Use small servo mounting brackets; these should be fixed with M2 screws.</li>
+            <li>Attach custom servo arms to the servo output shaft. These arms should extend outward by approximately 20 mm.</li>
+            <li>Connect the servo arms via short pushrods (custom-machined or 3D-printed to a tolerance of ±0.5 mm) to the wing flaps.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Calibrating Flap Movements:</strong>
+          <ul>
+            <li>Power on the Pixhawk 4 and connect it to Mission Planner or QGroundControl.</li>
+            <li>Use the software’s servo calibration routine to set the neutral, up, and down positions. Ensure that the flaps deflect no more than 10° at full command.</li>
+          </ul>
+        </li>
+      </ol>
+      
+      <h3>3.3 LED Navigation & Status Integration</h3>
+      <ol>
+        <li>
+          <strong>LED Strip Placement:</strong>
+          <ul>
+            <li>Attach the Adafruit NeoPixel WS2812B LED strip along the top edge of the fuselage using double-sided adhesive tape. Ensure it is flush and evenly spaced.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Wiring the LED Strip:</strong>
+          <ul>
+            <li>Solder a connector (e.g., JST-SM) to the end of the LED strip wire.</li>
+            <li>Connect the LED strip’s data line to the Pixhawk 4’s designated LED output port. Verify correct voltage regulation (using a 5V regulator if necessary).</li>
+          </ul>
+        </li>
+      </ol>
+      
+      <h3>3.4 Propulsion Monitoring and Telemetry</h3>
+      <ol>
+        <li>
+          <strong>Additional Sensor Integration:</strong>
+          <ul>
+            <li>Use current sensors (such as ACS712 modules) on each motor’s power line. Mount these sensors close to the ESCs using Velcro straps.</li>
+            <li>Wire the sensor outputs to the Pixhawk’s analog input channels, ensuring that calibration is performed via the flight control software.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Data Logging:</strong>
+          <ul>
+            <li>Configure the Pixhawk 4 to record flight data (motor current, temperature, RPM, battery voltage) at a 5 Hz sampling rate.</li>
+            <li>Store this data on an SD card inserted in the Pixhawk for post-flight analysis.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+    
+    <!-- Step 4: Electromagnetic Launch & Landing Integration -->
+    <section id="step4">
+      <h2>Step 4: Electromagnetic Launch & Landing System</h2>
+      <p>This innovative system ensures smooth takeoff and landing by transferring supplemental power through electromagnetically coupled contacts.</p>
+      
+      <h3>4.1 Aircraft-Mounted Electromagnets</h3>
+      <ol>
+        <li>
+          <strong>Mounting Location:</strong>
+          <ul>
+            <li>Identify the landing gear attachment points along the bottom of the fuselage (near the front and rear). Mark two locations where the K&J RCH‑052 electromagnets will be installed.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Installation:</strong>
+          <ul>
+            <li>Drill small pilot holes (diameter appropriate for M2 screws) in the fuselage bottom at the marked positions.</li>
+            <li>Secure the electromagnets using M2 screws and a layer of high-strength epoxy to ensure they remain fixed under vibration.</li>
+            <li>Ensure that the electromagnets’ active face (the side that generates the magnetic field) is flush with the aircraft’s landing surface.</li>
+          </ul>
+        </li>
+      </ol>
+      
+      <h3>4.2 Runway System Setup</h3>
+      <ol>
+        <li>
+          <strong>Runway Panel Construction:</strong>
+          <ul>
+            <li>Construct a runway panel from a durable, non-conductive material such as high-density polyethylene (HDPE), sized at 1.5 m long and 0.5 m wide.</li>
+            <li>Apply heavy-duty copper tape in a continuous strip along the panel’s top surface. Overlap the edges by 5 mm for electrical continuity.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Power Supply Integration:</strong>
+          <ul>
+            <li>Mount a power supply unit (rated to deliver supplemental power during landing/takeoff) underneath the panel. Connect the copper tape to the power module using soldered joints and secure with heat shrink tubing.</li>
+            <li>Include a control module that detects when the aircraft’s electromagnets make contact with the conductive tape and automatically transfers power.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Mounting & Calibration:</strong>
+          <ul>
+            <li>Secure the runway panel on a stable frame with vibration-damping feet.</li>
+            <li>Calibrate the system by testing contact resistance and ensuring that the power transfer engages smoothly when the aircraft touches down.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+    
+    <!-- Step 5: Final Assembly & Testing -->
+    <section id="step5">
+      <h2>Step 5: Final Assembly & Testing</h2>
+      <p>With all subsystems installed, the final stage is to integrate everything and perform rigorous testing.</p>
+      
+      <ol>
+        <li>
+          <strong>Integration:</strong>
+          <ul>
+            <li>Carefully bring together the airframe (with its internal bulkhead, wiring channels, and composite skins) with all propulsion, electronic, and electromagnetic subsystems.</li>
+            <li>Use the custom mounting brackets and fasteners (ensure all screws are torqued to manufacturer specifications, typically 0.3 Nm for small M3 screws) to secure each component.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Wiring Inspection:</strong>
+          <ul>
+            <li>Double-check all solder joints and connector crimps using a multimeter to ensure continuity and proper voltage levels.</li>
+            <li>Label all wires with small heat-shrink tags indicating their destination (e.g., “Motor 1”, “ESC 2”, “LED Data”).</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Bench Testing:</strong>
+          <ul>
+            <li>Power up the system (using a safety switch or fuse) and test each motor individually. Verify that the ESCs respond correctly to throttle input from the autopilot.</li>
+            <li>Simulate a landing by manually engaging the electromagnet circuit and ensuring that the runway system detects the contact and transfers power.</li>
+            <li>Run a full sensor check through the Pixhawk 4, confirming that all telemetry (current, voltage, temperature) is within expected ranges.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Flight Testing:</strong>
+          <ul>
+            <li>Begin with low‑altitude hover tests in a controlled environment. Use the autopilot’s safety parameters to limit altitude and speed.</li>
+            <li>Gradually test the active flap control, recording servo movements and ensuring smooth transitions.</li>
+            <li>Test the electromagnetic landing system by performing short, controlled landing runs on the runway panel, and adjust the power transfer timing as needed.</li>
+            <li>After successful initial flights, incrementally increase speed and altitude while closely monitoring telemetry data.</li>
+          </ul>
+        </li>
+      </ol>
+      <p><strong>Final Note:</strong> Document each test flight in detail—note any adjustments required in motor timing, servo calibration, or electromagnet engagement. This data is essential for fine‑tuning the EcoJet X1 before full‑scale operation.</p>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 EcoJet X1 Project. All rights reserved.</p>
+  </footer>
+</body>
+</html>
